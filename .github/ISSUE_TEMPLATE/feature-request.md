@@ -2,7 +2,7 @@
 name: Feature Request
 about: Suggest a feature for Zephyr
 title: "[FEATURE]"
-labels: ''
+labels: Feature Request
 assignees: MTACS
 
 ---
