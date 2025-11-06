@@ -20,5 +20,11 @@ A tweak for Dock on macOS 15.0+ for use with [ammonia](https://github.com/CoreBe
 
 ## Installation
 
-Download the [latest release](url) and unzip. Copy `Zephyr.app` to `/Applications` and `libZephyr.dylib`, `libZephyr.dylib.whitelist`, and `libZephyr.dylib.blacklist` to `/private/var/ammonia/core/tweaks`. Open the Zephyr and click the apply button in the top right corner to restart Dock
+Download the [latest release](https://github.com/MTACS/Zephyr/releases) and unzip. Copy `Zephyr.app` to `/Applications` and `libZephyr.dylib`, `libZephyr.dylib.whitelist`, and `libZephyr.dylib.blacklist` to `/private/var/ammonia/core/tweaks`. Open the Zephyr and click the apply button in the top right corner to restart Dock
+
+## Building
+
+To build the dylib run `make install`. To build the application run `xcodebuild -project Zephyr.xcodeproj -target "ZephyrApplication" -configuration Release CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO`. Output files are located in `/build`
+
+Special thanks to [bedtime](https://github.com/CoreBedtime) for ammonia, [Alex Spaulding's](https://github.com/aspauldingcode) [apple-sharpener](https://github.com/aspauldingcode/apple-sharpener) which inspired code to allow some settings to apply instantly, and [Jeremy Legendre](https://github.com/jslegendre) for [JLMaterialLayer](https://github.com/jslegendre/JLMaterialLayer)
 
