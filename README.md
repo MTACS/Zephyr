@@ -4,6 +4,50 @@
 
 A tweak for Dock on macOS 15.0+ for use with [ammonia](https://github.com/CoreBedtime/ammonia)
 
+## Features
+
+Background
+* Override background style
+  * System
+  * Dark
+  * Light
+* Hide all background layers
+* Hide border layer (macOS 15.x)
+* Color border layer (macOS 15.x)
+* Use custom blur layer
+  * Blur radius
+  * Saturation
+  * Brightness
+  * Opacity
+  * Window passthrough amount
+  * Corner radius
+
+Badges
+* Custom badge color
+* Use icon average color
+* Add trash contents count badge
+* Add contents count to Dock folders
+* Use a custom badge image
+
+Separators (Main & Recents)
+* Hide separator
+* Custom separator color
+* Custom width & height
+
+Indicators
+* Custom indicator color
+* Use icon average color
+* Custom width & height
+
+Launchpad (macOS 15.x)
+* Hide open folder background
+
+Extra
+* Add spacer tiles (small & large
+* Highlight hovered item in stack grids
+* Only display running apps
+* Lock Dock contents
+
 <details>
   <summary>Screenshots</summary>
   <img width="1352" height="878" alt="background" src="https://github.com/user-attachments/assets/d2051bf8-bde4-4a8f-9d24-bc5f795161f9" />
