@@ -1,4 +1,7 @@
 # Zephyr
+
+<img width="256" height="256" alt="zephyr" src="https://github.com/user-attachments/assets/bc38589f-4c76-477a-af0c-579c84b52266" />
+
 A tweak for Dock on macOS 15.0+ for use with [ammonia](https://github.com/CoreBedtime/ammonia)
 
 <details>
@@ -17,5 +20,5 @@ A tweak for Dock on macOS 15.0+ for use with [ammonia](https://github.com/CoreBe
 
 ## Installation
 
-
+Download the [latest release](url) and unzip. Copy Zephyr.app to `/Applications` and libZephyr.dylib, libZephyr.dylib.whitelist, and libZephyr.dylib.blacklist to `/private/var/ammonia/core/tweaks`. Open the Zephyr and click the apply button in the top right corner to restart Dock
 
