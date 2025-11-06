@@ -26,5 +26,5 @@ Download the [latest release](https://github.com/MTACS/Zephyr/releases) and unzi
 
 To build the dylib run `make install`. To build the application run `xcodebuild -project Zephyr.xcodeproj -target "ZephyrApplication" -configuration Release CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO`. Output files are located in `/build`
 
-Special thanks to [bedtime](https://github.com/CoreBedtime) for ammonia, [Alex Spaulding's](https://github.com/aspauldingcode) [apple-sharpener](https://github.com/aspauldingcode/apple-sharpener) which inspired code to allow some settings to apply instantly, and [Jeremy Legendre](https://github.com/jslegendre) for [JLMaterialLayer](https://github.com/jslegendre/JLMaterialLayer)
+Special thanks to [bedtime](https://github.com/CoreBedtime) for ammonia, [Alex Zielenski](https://github.com/alexzielenski) for [ZKSwizzle](https://github.com/alexzielenski/ZKSwizzle), [Alex Spaulding's](https://github.com/aspauldingcode) [apple-sharpener](https://github.com/aspauldingcode/apple-sharpener) which inspired code to allow some settings to apply instantly, and [Jeremy Legendre](https://github.com/jslegendre) for [JLMaterialLayer](https://github.com/jslegendre/JLMaterialLayer)
 
