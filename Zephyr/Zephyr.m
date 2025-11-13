@@ -185,6 +185,9 @@ ZKSwizzleInterface(zp_FloorLayer, FloorLayer, CALayer)
     if ([defaults boolForKey:@"colorBorderLayer"]) {
         borderLayer.backgroundColor = colorFromHexString([defaults objectForKey:@"borderLayerColor"]).CGColor;
     }
+    if ([defaults boolForKey:@"useCustomLayer"]) {
+        borderLayer.cornerRadius = [defaults integerForKey:@"cornerRadius"];
+    }
     
     CALayer *separatorLayer = ZKHookIvar(self, CALayer *, "_separatorLayer");
     separatorLayer.hidden = [defaults boolForKey:@"hideSeparator"];

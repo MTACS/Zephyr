@@ -6,8 +6,9 @@
 //
 
 #import "ZPPreferencesController.h"
+#import <UniformTypeIdentifiers/UniformTypeIdentifiers.h>
+#import "../../global.h"
 
 @interface ZPSettingsController : ZPPreferencesController
 @property (strong) IBOutlet NSSwitch *dockMenuSwitch;
-
 @end
